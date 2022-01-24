@@ -6,10 +6,14 @@ import useAuth from '../../Hooks/useAuth';
 const Nav = () => {
     const { user, logOut } = useAuth()
     return (
+
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <NavLink className="navbar-brand text-warning name ps-5" to="/">ELIUS</NavLink>
-                <div className=" collapse navbar-collapse" id="navbarNav">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggle-button">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className=" collapse navbar-collapse" id="toggle-button">
                     < ul className="navbar - nav ms-auto pe-5">
                         < NavLink className="navigation" to="/home" > Home</NavLink >
                         <NavLink className="navigation" to="/about">About</NavLink>
@@ -25,7 +29,6 @@ const Nav = () => {
                 </div >
             </div >
         </nav >
-
 
     );
 };

@@ -15,7 +15,6 @@ const useFirebase = () => {
     const githubProvider = new GithubAuthProvider();
 
     // use effect
-
     useEffect(() => {
         onAuthStateChanged(auth, user => {
             if (user) {
@@ -45,8 +44,7 @@ const useFirebase = () => {
     const GithubHandler = () => {
         signInWithPopup(auth, githubProvider)
             .then(result => {
-                console.log(result.user);
-
+                setUser(result.user)
             })
     }
 

@@ -3,18 +3,18 @@ import React from 'react';
 const Course = () => {
     return (
         <div className='container mt-3'>
-            <div className='row gap-2'>
-                <div className="col  border">
+            <div className='row '>
+                <div className="col-12 col-md-6 col-lg-4  border">
                     <div><img className='img-fluid rounded-circle' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-9CAstjJC__nxH-NdVVft3u1drbX_3GxjmGJRkcHgikswrXwVp1ugt-_cGuWGjxH-ww&usqp=CAU" alt="" /></div>
                     <h6 className='mt-3'>javascript</h6>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit culpa fugiat nesciunt numquam minima sint harum exercitationem odio veniam.</div>
                 </div>
-                <div className="col border">
+                <div className="col-12 col-md-6 col-lg-4  border">
                     <div><img className='img-fluid  rounded-circle' src="https://namespaceit.com/uploads/post/image/1616319270.png" alt="" /></div>
                     <h6 className='mt-3'>Rract Js</h6>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit culpa fugiat nesciunt numquam minima sint harum exercitationem odio veniam.</div>
                 </div>
-                <div className="col border">
+                <div className="col-12 col-md-6 col-lg-4 border">
                     <div><img className='img-fluid rounded-circle' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWvlxZIVKXmrMbP9oQdqiRSHMRZY1ARnTkAinZs0gZSN5CRbAj1bT38t6v6V556n0Ngj8&usqp=CAU" alt="" /></div>
                     <h6 className='mt-3'>Node js</h6>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit culpa fugiat nesciunt numquam minima sint harum exercitationem odio veniam.</div>
@@ -52,31 +52,31 @@ const Course = () => {
             <div className="row mt-5 gap-2 justify-content-center">
                 <div><h3>Find More</h3></div>
                 <p>Get Other Tutorial Series By Elius Hossain</p>
-                <div className="col-2 shadow-sm p-4 ">
+                <div className="col-12 col-md-5 col-lg-3 shadow-sm p-4 ">
                     <div className='w-25 mx-auto'><img className='img-fluid' src="https://react.rabbil.com/images/asp.png" alt="" /></div>
                     <h3 className='pt-3'>ASP.NET</h3>
                 </div>
-                <div className="col-2 shadow-sm p-4">
+                <div className="col-12 col-md-5 col-lg-3 shadow-sm p-4">
                     <div className='w-25 mx-auto'><img className='img-fluid' src="https://react.rabbil.com/images/laravellogo.png" alt="" /></div>
                     <h3 className='pt-3'>LUMEN</h3>
                 </div>
-                <div className="col-2 shadow-sm p-4 ">
+                <div className="col-12 col-md-5 col-lg-3 shadow-sm p-4 ">
                     <div className='w-25 mx-auto'><img className='img-fluid' src="https://react.rabbil.com/images/androidlogo.png" alt="" /></div>
                     <h3 className='pt-3'>ANDROID</h3>
                 </div>
-                <div className="col-2 shadow-sm p-4">
+                <div className="col-12 col-md-5 col-lg-3 shadow-sm p-4">
                     <div className='w-25 mx-auto'><img className='img-fluid' src="https://react.rabbil.com/images/dartlogo.png" alt="" /></div>
                     <h3 className='pt-3'>DART</h3>
                 </div>
-                <div className="col-2 shadow-sm p-4">
+                <div className="col-12 col-md-5 col-lg-3 shadow-sm p-4">
                     <div className='w-25 mx-auto'><img className='img-fluid' src="https://react.rabbil.com/images/javalogo.png" alt="" /></div>
                     <h3 className='pt-3'>JAVA</h3>
                 </div>
-                <div className="col-2 shadow-sm p-4">
+                <div className="col-12 col-md-5 col-lg-3 shadow-sm p-4">
                     <div className='w-25 mx-auto'><img className='img-fluid' src="https://react.rabbil.com/images/reactlogo.png" alt="" /></div>
                     <h3 className='pt-3'>REACT JS</h3>
                 </div>
-                <div className="col-2 shadow-sm p-4">
+                <div className="col-12 col-md-5 col-lg-3 shadow-sm p-4">
                     <div className='w-25 mx-auto'><img className='img-fluid' src="https://react.rabbil.com/images/reactlogo.png" alt="" /></div>
                     <h3 className='pt-3'>REACT NATIVE</h3>
                 </div>
